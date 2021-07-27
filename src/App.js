@@ -1,11 +1,11 @@
 import React from 'react'
+import Products from './components/Products/Products';
+// import Product from './components/Products/Product/Product';
 
 const App = () => {
     return (
-        <div>
-            E-commerce app
-        </div>
-    )
+        <Products />
+    );
 }
 
-export default App
+export default App;
