@@ -4,7 +4,7 @@ import { Grid } from '@material-ui/core';
 import Product from './Product/Product';
 import useStyles from './Styles';
 
-const Products = ({ products }) => {
+const Products = ({ products, onAddToCart }) => {
     const classes = useStyles();
     return (
         <main className={classes.content}>
